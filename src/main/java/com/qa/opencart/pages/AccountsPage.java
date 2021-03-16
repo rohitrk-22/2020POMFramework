@@ -16,7 +16,7 @@ public class AccountsPage {
 	
 	private By logo = By.cssSelector("#logo");
 	private By AccHeaders= By.cssSelector("div#content h2");
-	private By searchField =By.name("search");
+	private By searchField =By.xpath("//input[@name='search']");
 	private By searchButton = By.cssSelector("div#search button");
 	
 	public AccountsPage(WebDriver driver) {
