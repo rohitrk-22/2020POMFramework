@@ -41,7 +41,14 @@
 
 	<test name="ShoppingCart Page Test">
 		<classes>
-			<class name="com.qa.opencart.tests.ShoppingCartPageTest" />
+			<class name="com.qa.opencart.tests.ProductPageInfoTest" />
+		</classes>
+	</test>
+	
+	<test name="ProductInfo Page Test">
+
+		<classes>
+			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>
 	</test>
 

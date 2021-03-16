@@ -24,8 +24,8 @@ public class ProductPageInfoTest extends BaseTest {
 	@BeforeClass
 	public void accSetUp() {
 		accPage=loginpage.doLogin(prop.getProperty("username"),prop.getProperty("password"));
-		searchResultPage=accPage.doSearch("MacBook");
-		productInfoPage=searchResultPage.selectProductFromResults("MacBook Pro");
+//		searchResultPage=accPage.doSearch("MacBook");
+//		productInfoPage=searchResultPage.selectProductFromResults("MacBook Pro");
 		
 		
 	}
@@ -33,7 +33,8 @@ public class ProductPageInfoTest extends BaseTest {
 	@Severity(SeverityLevel.CRITICAL)
 	@Test(priority=1)
 	public void productInfoDataTest() {
-	
+		searchResultPage=accPage.doSearch("MacBook");
+		productInfoPage=searchResultPage.selectProductFromResults("MacBook Pro");
 		Map<String, String> actProductInfoMao = productInfoPage.getProductInformation();
 		softAssert.assertTrue(actProductInfoMao.get("Name").equals("MacBook Pro"));
 		softAssert.assertTrue(actProductInfoMao.get("Brand").equals("Apple"));
