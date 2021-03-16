@@ -78,13 +78,13 @@ public class ProductInfoPage
 	}
 	
 	public String getSuccessMsg() {
-		 elementUtil.printElementsTexts(successMsg, 5);
+		 elementUtil.printElementsTexts(successMsg, 10);
 		return elementUtil.doGetElementText(successMsg);
 	}
 	
 	public ShoppingCartPage navigateToAddToCart() {
 		elementUtil.doActionsClick(addToCartButton);
-		elementUtil.waitForPresenceOfElement(successMsg, 5);
+		elementUtil.waitForPresenceOfElement(successMsg, 10);
 		elementUtil.doClick(itemsButton);
 		elementUtil.doClick(viewCart);
 		return new ShoppingCartPage(driver);
