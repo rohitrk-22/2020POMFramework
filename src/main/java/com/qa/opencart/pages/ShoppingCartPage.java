@@ -22,7 +22,7 @@ public class ShoppingCartPage
 	}
 	
 	public String getShoppingCartPageTitle() {
-		return elementUtil.waitForTitleIs(10, Constants.SHOPPING_CART_PAGE_TITLE);
+		return elementUtil.waitForTitleIs(15, Constants.SHOPPING_CART_PAGE_TITLE);
 	}
 	
 	public String getFinalPriceOfAddedProduct() {
