@@ -20,7 +20,7 @@ public class DriverFactory {
 
 	Properties prop;
 	OptionsManager optionsManager;
-	public static String heighlight;
+	public static String highlight;
 
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 
@@ -35,14 +35,10 @@ public class DriverFactory {
 	public WebDriver init_driver(Properties prop) {
 
 		String browserName = prop.getProperty("browser").trim();
-		heighlight = prop.getProperty("highlight").trim();
+		highlight = prop.getProperty("highlight").trim();
 		optionsManager = new OptionsManager(prop);
 		System.out.println("Browser name is : " + browserName);
 		
-//		String browser = System.getProperty("browser");
-//		if(browser!=null && !browser.isEmpty()) {
-//			browserName=System.getenv(browser);
-//		}
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
