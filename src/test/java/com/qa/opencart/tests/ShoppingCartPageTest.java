@@ -32,7 +32,7 @@ public class ShoppingCartPageTest extends BaseTest
 	public void getProductFinalPriceTest() {
 		
 		String finalPrice = shoppingCartPage.getFinalPriceOfAddedProduct();
-		Assert.assertEquals(finalPrice, "$6,000.00");
+		Assert.assertEquals(finalPrice, "$2,000.00");
 	}
 //	@Test(priority=2,enabled=true)
 //	public void addedProductInfo() {
