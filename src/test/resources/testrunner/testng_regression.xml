@@ -29,12 +29,7 @@
 		</classes>
 	</test>
 
-	<test name="Product PageInfo Test">
 
-		<classes>
-			<class name="com.qa.opencart.tests.ProductPageInfoTest" />
-		</classes>
-	</test>
 	
 	<test name="Register Page Test">
 
