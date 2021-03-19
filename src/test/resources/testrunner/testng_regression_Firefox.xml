@@ -23,17 +23,17 @@
 		</classes>
 	</test>
 	
-	<test name="Login Page Test Firefox_83">
-		<parameter name ="browser" value ="firefox" />
-		<parameter name ="version" value ="83" />
+	<test name="Login Page Test Chrome_89">
+		<parameter name ="browser" value ="chrome" />
+		<parameter name ="version" value ="89" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>
 
 	<test name="Accounts Page Test">
-	<parameter name ="browser" value ="firefox" />
-		<parameter name ="version" value ="80" />
+	<parameter name ="browser" value ="chrome" />
+		<parameter name ="version" value ="89" />
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>

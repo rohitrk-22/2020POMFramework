@@ -25,7 +25,7 @@ public class OptionsManager {
 		 return co;
 	}
 	
-	public FirefoxOptions getFireFocOption() {
+	public FirefoxOptions getFireFoxOption() {
 		 fo = new FirefoxOptions();
 		 
 		 if(Boolean.parseBoolean(prop.getProperty("headless"))) fo.addArguments("--headless");
