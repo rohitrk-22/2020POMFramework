@@ -25,6 +25,7 @@ public class AccountsPage {
 	}
 	
 	public boolean isLogoExist() {
+		elementUtil.waitForVisiblilityOfElements(logo, 3);
 		return elementUtil.doIsDisplayed(logo);
 	}
 	
