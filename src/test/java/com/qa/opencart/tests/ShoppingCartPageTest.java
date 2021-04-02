@@ -1,6 +1,8 @@
 package com.qa.opencart.tests;
 
 
+import java.util.Map;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -34,12 +36,12 @@ public class ShoppingCartPageTest extends BaseTest
 		String finalPrice = shoppingCartPage.getFinalPriceOfAddedProduct();
 		Assert.assertEquals(finalPrice, "$14,000.00");
 	}
-//	@Test(priority=2,enabled=true)
-//	public void addedProductInfo() {
-//		Map<String, String> info = shoppingCartPage.getRewardPointOfAddedProduct();
-//		softAssert.assertTrue(info.get("Name").equals("MacBook"));
-//		softAssert.assertTrue(info.get("Reward Points").equals("800"));
-//		softAssert.assertAll();
-//	}
+	@Test(priority=2,enabled=true)
+	public void addedProductInfo() {
+		Map<String, String> info = shoppingCartPage.getRewardPointOfAddedProduct();
+		softAssert.assertTrue(info.get("Name").equals("Reward Points"));
+		softAssert.assertTrue(info.get("Reward Points").equals("800"));
+		softAssert.assertAll();
+	}
 
 }
