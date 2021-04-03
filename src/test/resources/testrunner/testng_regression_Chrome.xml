@@ -23,15 +23,15 @@
 		</classes>
 	</test>
 	
-	<test name="Login Page Test Chrome_89">
+	<test name="Login Page Test Chrome_85">
 		<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="89" />
+		<parameter name ="version" value ="85" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>
 
-	<test name="Accounts Page Test">
+	<test name="Accounts Page Test Chrome_89">
 	<parameter name ="browser" value ="chrome" />
 		<parameter name ="version" value ="89" />
 		<classes>
@@ -41,26 +41,26 @@
 
 
 	
-	<test name="Register Page Test">
+	<test name="Register Page Test Chrome_89">
 		<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="64" />
+		<parameter name ="version" value ="89" />
 		<classes>
 			<class name="com.qa.opencart.tests.RegisterPageTest" />
 		</classes>
 	</test>
 
 
-	<test name="ShoppingCart Page Test">
+	<test name="ShoppingCart Page Test Chrome_85">
 	<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="89" />
+		<parameter name ="version" value ="85" />
 		<classes>
 			<class name="com.qa.opencart.tests.ProductPageInfoTest" />
 		</classes>
 	</test>
 	
-	<test name="ProductInfo Page Test">
+	<test name="ProductInfo Page Test Chrome_64">
 	<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="89" />
+		<parameter name ="version" value ="64" />
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>

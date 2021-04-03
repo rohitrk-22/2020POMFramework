@@ -15,25 +15,25 @@
 	
 
 
-	<test name="Login Page Test Chrome_85">
-		<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="85" />
+	<test name="Login Page Test Firefox_57">
+		<parameter name ="browser" value ="firefox" />
+		<parameter name ="version" value ="57" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>
 	
-	<test name="Login Page Test Chrome_89">
-		<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="89" />
+	<test name="Login Page Test Firefox_83">
+		<parameter name ="browser" value ="firefox" />
+		<parameter name ="version" value ="83" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>
 
-	<test name="Accounts Page Test">
-	<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="89" />
+	<test name="Accounts Page Test Firefox_80 ">
+	<parameter name ="browser" value ="firefox" />
+		<parameter name ="version" value ="80" />
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>
@@ -41,26 +41,26 @@
 
 
 	
-	<test name="Register Page Test">
-		<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="64" />
+	<test name="Register Page Test Firefox_85">
+		<parameter name ="browser" value ="firefox" />
+		<parameter name ="version" value ="85" />
 		<classes>
 			<class name="com.qa.opencart.tests.RegisterPageTest" />
 		</classes>
 	</test>
 
 
-	<test name="ShoppingCart Page Test">
-	<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="89" />
+	<test name="ShoppingCart Page Test Firefox_85">
+	<parameter name ="browser" value ="firefox" />
+		<parameter name ="version" value ="85" />
 		<classes>
 			<class name="com.qa.opencart.tests.ProductPageInfoTest" />
 		</classes>
 	</test>
 	
-	<test name="ProductInfo Page Test">
-	<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="89" />
+	<test name="ProductInfo Page Test Firefox_83">
+	<parameter name ="browser" value ="firefox" />
+		<parameter name ="version" value ="83" />
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>

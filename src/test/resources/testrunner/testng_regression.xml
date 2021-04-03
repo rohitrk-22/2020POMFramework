@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Demo Cart App Regression Test Suite" thread-count="3"
+<suite name="Demo Cart App Regression Test Suite" thread-count="5"
 	parallel="tests" verbose="3">
 
 
@@ -31,7 +31,7 @@
 		</classes>
 	</test>
 
-	<test name="Accounts Page Test">
+	<test name="Accounts Page Test Firefox_80">
 	<parameter name ="browser" value ="firefox" />
 		<parameter name ="version" value ="80" />
 		<classes>
@@ -41,7 +41,7 @@
 
 
 	
-	<test name="Register Page Test">
+	<test name="Register Page Test Chrome_64">
 		<parameter name ="browser" value ="chrome" />
 		<parameter name ="version" value ="64" />
 		<classes>
@@ -50,7 +50,7 @@
 	</test>
 
 
-	<test name="ShoppingCart Page Test">
+	<test name="ShoppingCart Page Test Chrome_89">
 	<parameter name ="browser" value ="chrome" />
 		<parameter name ="version" value ="89" />
 		<classes>
@@ -58,9 +58,9 @@
 		</classes>
 	</test>
 	
-	<test name="ProductInfo Page Test">
-	<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="89" />
+	<test name="ProductInfo Page Test firefox_85">
+	<parameter name ="browser" value ="firefox" />
+		<parameter name ="version" value ="85" />
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>
