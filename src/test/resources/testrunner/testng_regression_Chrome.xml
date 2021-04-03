@@ -17,15 +17,15 @@
 
 	<test name="Login Page Test Chrome_85">
 		<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="85" />
+		<parameter name ="version" value ="89" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>
 	
-	<test name="Login Page Test Chrome_85">
+	<test name="Login Page Test Chrome_89">
 		<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="85" />
+		<parameter name ="version" value ="89" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
@@ -52,7 +52,7 @@
 
 	<test name="ShoppingCart Page Test Chrome_85">
 	<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="85" />
+		<parameter name ="version" value ="89" />
 		<classes>
 			<class name="com.qa.opencart.tests.ProductPageInfoTest" />
 		</classes>
@@ -60,7 +60,7 @@
 	
 	<test name="ProductInfo Page Test Chrome_64">
 	<parameter name ="browser" value ="chrome" />
-		<parameter name ="version" value ="64" />
+		<parameter name ="version" value ="89" />
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>
