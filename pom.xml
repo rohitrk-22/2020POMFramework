@@ -123,9 +123,7 @@
 					<reuseForks>true</reuseForks>
 					<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/testrunner/testng_regression_Chrome.xml</suiteXmlFile>
 						<suiteXmlFile>src/test/resources/testrunner/testng_regression.xml</suiteXmlFile>
-						<suiteXmlFile>src/test/resources/testrunner/testng_regression_Firefox.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					
 					<argLine>
