@@ -89,9 +89,9 @@ public class DriverFactory {
 			cap.setCapability(ChromeOptions.CAPABILITY, optionsManager.getChromeOptions());
 			
 //			selenoid capabalities
-			cap.setCapability("browserName", browserName.toLowerCase());
-			cap.setCapability("browserVersion", browserVersion);
-			cap.setCapability("enableVNC", true);
+//			cap.setCapability("browserName", browserName.toLowerCase());
+//			cap.setCapability("browserVersion", browserVersion);
+//			cap.setCapability("enableVNC", true);
 			try {
 				tlDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), cap));
 			} catch (MalformedURLException e) {
@@ -102,9 +102,9 @@ public class DriverFactory {
 			DesiredCapabilities cap = DesiredCapabilities.firefox();
 			cap.setCapability(FirefoxOptions.FIREFOX_OPTIONS, optionsManager.getFireFoxOption());
 //			selenoid capabalities
-			cap.setCapability("browserName", browserName.toLowerCase());
-			cap.setCapability("browserVersion", browserVersion);
-			cap.setCapability("enableVNC", true);
+//			cap.setCapability("browserName", browserName.toLowerCase());
+//			cap.setCapability("browserVersion", browserVersion);
+//			cap.setCapability("enableVNC", true);
 			try {
 				tlDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), cap));
 			} catch (MalformedURLException e) {
